@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portofolio Anis</title>
+    <!-- Link untuk menampilkan ikon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Link swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text"> Anis</h2>
+            </a>
+        <ul class="nav-menu">
+            <button id="menu-close-button" class="fas fa-times"></button>
+            
+            <li class="nav-item">
+                <a href="#hero" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#about" class="nav-link">Profil</a>
+            </li>
+            <li class="nav-item">
+                <a href="#galery" class="nav-link">Galeri</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact" class="nav-link">Kontak</a>
+            </li>
+        </ul>
+
+        <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header> 
+
+    <main>
+        <!-- Hero section -->
+        <section class="hero-section" id="hero">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Hi, i'm <span>Anis</span></h2>
+                    <h3 class="subtitle">I am a <span class="typing">i</span></h3>
+                    <p class="description">Selamat datang di website portofolio saya. Aku adalah seorang mahasiswi di salah satu universitas di Semarang. Mau tau lebih lanjut tentangku? klik tombol dibawah</p>
+                    
+                    <div class="buttons">
+                        <a href="#about" class="button tentang-saya">Tentang saya</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="gambar home.png" alt="Hero"
+                    class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- About section -->
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="gambar profil 1.jpg" alt="About" 
+                    class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">Tentang Saya</h2>
+                    <p class="text">Hallo....nama saya Anis Sufilah, sering dipangil Anis. 
+                    Saya adalah mahasiswi semester 3 di Universitas PGRI Semarang jurusan Informatika. 
+                    Saya telah bekerja dengan berbagai perusahaan ternama dan proyek independen, membantu mereka menghidupkan visi mereka melalui karya kreatif saya. 
+                    Proyek saya mencakup desain situs web, desain, dan ilustrasi.
+                    Saya percaya bahwa desain yang baik dapat membuat dunia menjadi tempat yang lebih baik. Oleh karena itu, 
+                    saya selalu berkomitmen untuk menghasilkan karya yang tidak hanya menarik secara visual tetapi juga fungsional.
+                    </p>
+                    <div class="social-link-list">
+                        <a href="https://www.facebook.com/anis.sufilah?mibextid=ZbWKwL" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/melodycs_/" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://youtube.com/@anissufilah3357?si=7U31eoU0epOGjlzt" class="social-link"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galery section -->
+        <section class="galery-section" id="galery">
+            <h2 class="section-title">Gallery Hasil Project Saya</h2>
+    <div class="section-content">
+        <div class="slider-container swiper">
+            <div class="slider-wrapper">
+                <ul class="galery-list swiper-wrapper">
+                    <li class="galery swiper-slide">
+                        <img src="desain grafis.jpg" alt="User" class="user-image">
+                        <h3 class="name">Pengembangan Web</h3>
+                    </li>
+                    <li class="galery swiper-slide">
+                        <img src="pengembangan web.jpg" alt="User" class="user-image">
+                        <h3 class="name">UI/UX Desain</h3>
+                    </li>
+                    <li class="galery swiper-slide">
+                        <img src="ui ux desain.jpg" alt="User" class="user-image">
+                        <h3 class="name">Desain Grafis</h3>
+                    </li>
+                    <li class="galery swiper-slide">
+                        <img src="ilustrasi digital.jpg" alt="User" class="user-image">
+                        <h3 class="name">Ilustrasi Digital</h3>
+                    </li>
+                    <li class="galery swiper-slide">
+                        <img src="web portofolio (1).png" alt="User" class="user-image">
+                        <h3 class="name">Web Restoran</h3>
+                    </li>
+                    <li class="galery swiper-slide">
+                        <img src="pengembangan web 2.png" alt="User" class="user-image">
+                        <h3 class="name">Portofolio Pribadi</h3>
+                    </li>
+                </ul>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-slide-button swiper-button-prev"></div>
+                <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+        </div>
+    </div>
+        </section>
+
+        <!-- Contact section -->
+        <section class="contact-section" id="contact">
+            <h2 class="section-title">Contact</h2>
+    <div class="section-content">
+        <ul class="contact-info-list">
+            <li class="contact-info">
+                <i class="fa-regular fa-envelope"></i>
+                <p>anissufilah@gmail.com</p>
+            </li>
+            <li class="contact-info">
+                <i class="fa-solid fa-phone"></i>
+                <p>+62 34567890</p>
+            </li>
+        </ul>
+
+        <form action="" class="contact-form">
+            <input type="text" placeholder="your name" class="form-input" required>
+            <input type="email" placeholder="your email" class="form-input" required>
+            <textarea placeholder="your message" class="form-input" required></textarea>
+            <button class="submit-button">Submit</button>
+        </form>
+    </div>
+        </section>
+    </main>
+
+    <!-- link swiper js-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- link halaman js buat sendiri-->
+    <script src="script.js"></script>
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2025 Anis Sufilah. Semua Hak Dilindungi.</p>
+        </div>    
+    </footer>
+
+</body>
+</html>
