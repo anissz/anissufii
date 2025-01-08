@@ -480,6 +480,7 @@ footer{
 
     .subtitle span::before{
         max-width: 100%;
+        text-align: center;
     }
 
     .hero-section .hero-details .buttons{
